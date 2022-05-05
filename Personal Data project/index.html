@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <script src="project4.js"></script>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="project4.css" />
+        <title>Project Personal Data</title>
+    </head>
+
+
+    <body>
+    <header>
+        
+        <div class="pdata">
+                <h1>Personal Data</h1>
+                <br>
+        </div>
+        <div class="pchild">
+                <label>First name:</label>
+                <input class = "boxes" type="text" id="fname" name="fname">
+                <br><br>
+                <label>Last name : </label>
+                <input class = "boxes" type="text" id="lname">
+                <br><br>
+            <label>Nationality :  </label>
+                <select class = "boxes" id="nation">
+                    <option value="ROMANIA">Choose from here...</option>
+                    <option value="ROMANIA">Romania</option>
+                    <option value="HUNGARY">Hungary</option>
+                    <option value="UCRAINA">UCRAINA</option>
+                    <option value="SPAIN">Spain</option>
+                    <option value="PORTUGAL">Portugal</option>
+                    <option value="RUSIA">Rusia</option>
+                    <option value="SERBIA">Serbia</option>
+                </select>
+            <br><br>
+            <label>Gender : </label>
+            <select class = "boxes" id="sex">
+                <option class = "boxes" value="choose">Choose your Gender..</option>
+                <option value="Feminine">Feminin</option>
+                <option value="Masculine">Masculin</option>
+            </select>
+        
+            <br><br>
+                <label>C.N.P. : </label>
+                <input class = "boxes" type="text" id="CNP" name="Codnumericpersonal"><br><br>
+            </div>
+                <div class="btnparent"><input class="btnsubmit" onclick="fn1()" type="submit" value="Submit"></div>
+    
+        </header>
+        <div class="showit">
+                <p id="show"></p>
+                <p id="showfname"></p>
+                <p id="showlname"></p>
+                <p id="shownation"></p>
+                <p id="showgender"></p>
+                <p id="showCNP"></p>
+        </div>
+    </body>
+</html>
+
